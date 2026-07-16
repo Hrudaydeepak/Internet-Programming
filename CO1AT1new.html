@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Website</title>
+
+    <style>
+        body{
+            background-color: lightblue;
+            font-family: Cambria;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        /* Scrolling Text */
+        .scroll{
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            border: 2px solid blue;
+            background-color: white;
+            border-radius: 10px;
+            padding: 8px;
+        }
+
+        .move{
+            display: inline-block;
+            white-space: nowrap;
+            color: blue;
+            font-weight: bold;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll{
+            from{transform:translateX(100%);}
+            to{transform:translateX(-100%);}
+        }
+
+        /* Grid Layout */
+        .grid{
+            display:grid;
+            grid-template-columns:auto auto auto;
+            gap:15px;
+            width:75%;
+            margin:30px auto;
+        }
+
+        .box{
+            background:white;
+            border:2px solid blue;
+            border-radius:12px;
+            padding:20px;
+            color:darkblue;
+        }
+
+        .box:hover{
+            background:#dff4ff;
+        }
+
+        button{
+            background:blue;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-family:Cambria;
+            font-size:14px;
+            border-radius:20px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:navy;
+        }
+
+        footer{
+            margin-top:30px;
+            color:darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🌐 Welcome to My Website</h1>
+
+    <p><b>"Learning Today, Leading Tomorrow"</b></p>
+
+    <div class="scroll">
+        <div class="move">
+            ⭐ Welcome to My Website ⭐ HTML • CSS • Web Design • Creativity • Keep Learning ⭐
+        </div>
+    </div>
+
+    <div class="grid">
+
+        <div class="box">
+            🏠<br><br>
+            <b>Home</b><br>
+            Start your journey here.
+        </div>
+
+        <div class="box">
+            👤<br><br>
+            <b>About</b><br>
+            Learn more about us.
+        </div>
+
+        <div class="box">
+            🖼️<br><br>
+            <b>Gallery</b><br>
+            Explore our collection.
+        </div>
+
+        <div class="box">
+            💼<br><br>
+            <b>Services</b><br>
+            Discover our services.
+        </div>
+
+        <div class="box">
+            📂<br><br>
+            <b>Projects</b><br>
+            View our latest work.
+        </div>
+
+        <div class="box">
+            📞<br><br>
+            <b>Contact</b><br>
+            Get in touch with us.
+        </div>
+
+    </div>
+
+    <button>Explore Website</button>
+
+    <footer>
+        <p>© 2026 My Website | Designed with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
