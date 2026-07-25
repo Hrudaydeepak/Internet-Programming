@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Symposium Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>College Online Symposium</h1>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#register">Register</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="home">
+<h2>Welcome</h2>
+<p>Register for the Annual Technical Symposium.</p>
+</section>
+<section id="register">
+<h2>Student Registration</h2>
+<form action="/register" method="POST">
+<label for="name">Student Name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<button type="submit">Submit</button>
+</form>
+</section>
+<section id="about">
+<h2>About Symposium</h2>
+<p>Technical events, coding contests, paper presentations, and workshops.</p>
+</section>
+</main>
+<footer><p>© 2026 Online Symposium Portal</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

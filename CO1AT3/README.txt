@@ -1,0 +1,1 @@
+Open index.html in your browser. If using PHP, place the project in your local server (e.g., XAMPP htdocs) to test form submission.
