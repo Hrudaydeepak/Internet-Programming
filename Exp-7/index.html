@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'><title>🚗 RentRide - Vehicle Rental System</title>
+<link rel='stylesheet' href='style.css'></head>
+<body>
+<div class='card'>
+<h1>🚗 RentRide - Vehicle Rental System</h1>
+<div class='form'>
+<input id='name' placeholder='Customer Name'>
+<select id='type'><option>Bike</option><option>Car</option><option>SUV</option><option>Van</option></select>
+<button onclick='addItem()'>Rent Vehicle</button>
+</div>
+<input id='search' placeholder='Search...' onkeyup='searchItem()'>
+<table>
+<thead><tr><th>Customer Name</th><th>Vehicle</th><th>Status</th><th>Action</th></tr></thead>
+<tbody id='tbl'></tbody>
+</table>
+</div>
+<script src='script.js'></script>
+</body></html>

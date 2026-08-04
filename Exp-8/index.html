@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'><title>💼 Online Job Portal System</title>
+<link rel='stylesheet' href='style.css'></head>
+<body>
+<div class='card'>
+<h1>💼 Online Job Portal System</h1>
+<div class='form'>
+<input id='name' placeholder='Applicant Name'>
+<select id='type'><option>Software Engineer</option><option>Web Developer</option><option>Data Analyst</option><option>UI Designer</option></select>
+<button onclick='addItem()'>Apply Job</button>
+</div>
+<input id='search' placeholder='Search...' onkeyup='searchItem()'>
+<table>
+<thead><tr><th>Applicant Name</th><th>Job Role</th><th>Status</th><th>Action</th></tr></thead>
+<tbody id='tbl'></tbody>
+</table>
+</div>
+<script src='script.js'></script>
+</body></html>
